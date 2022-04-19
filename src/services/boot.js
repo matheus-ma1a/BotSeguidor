@@ -14,7 +14,7 @@ export const BotService = async (userList, username, password) => {
     await page.type('input[name="password"]', password, { delay: 100 })
     await page.keyboard.press('Enter')
 
-    await page.waitForSelector('#react-root > section > nav > div._8MQSO.Cx7Bp > div > div > div.QY4Ed.P0xOK > input')
+    await page.waitFor('#react-root > section > nav > div._8MQSO.Cx7Bp > div > div > div.QY4Ed.P0xOK > input')
 
     for (let i = 0; i < userList.length; i++) {
 
