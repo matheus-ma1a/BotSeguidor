@@ -1,6 +1,41 @@
 # BotSeguidor
-Automaçao feita em node js e a biblioteca Puppeteer, para seguir uma lista de perfis no instagram.
 
-## Automaçao rodando!!
+![automacao rodando](./exemplo.gif.gif)
+> Automação para seguir uma lista de perfis no instagram.
 
-![automacao rodando](https://github.com/matheus-ma1a/BotSeguidor/blob/main/exemplo.gif.gif)
+## 💻 Tecnologias usadas
+
+- [NodeJS](https://nodejs.org/en/)
+- [Puppeteer](https://developers.google.com/web/tools/puppeteer)
+
+
+## 🚀 Instalando BotSeguidor
+
+Para instalar o **BotSeguidor**, siga estas etapas:
+
+
+``` bash
+yarn
+```
+
+ou
+
+```bash
+npm install
+```
+
+
+
+## ☕ Usando BotSeguidor
+
+Para usar **BotSeguidor**, siga estas etapas:
+
+``` bash
+yarn start
+```
+
+ou
+
+```bash
+npm start
+```
